@@ -1,4 +1,4 @@
-[
+modules.export = [
     {
         "title": "2016 Wrangler",
         "listing": "cars-and-trucks",
@@ -15,7 +15,7 @@
             "make": "Jeep",
             "model": "Wrangler"
         },
-        "description": "Low mileage and in excellent condition! This 'Nighthawk Black Pearl' 2007 Acura RDX SH-AWD has the Technology Package! All-Wheel-Drive and very safe! It comes with the Automatic Transmission, Turbocharged 2.3-Liter DOHC i-VTEC Engine, Alloy Wheels, Backup Camera, Climate Control, Heated Leather Seats, GPS Navigation System, Tow Hitch, Power Equipment Group, Cruise Control, Power Sunroof, Acura/ELS Surround Premium AM/FM/XM Sound System, Keyless Entry, Privacy Glass & more! The odometer is 23k miles below market ass & more! The odometer is 23k miles below market average! We serviced & detailed this one, too: new front door speakers, new wipers & more! You won't find many at this price that are this nice! Don't hesitate...this won't last long!",
+        "description": "Low mileage and in excellent condition! This 'Nighthawk Black Pearl' 2007 Acura RDX SH-AWD has the Technology Package! All-Wheel-Drive and very safe! It comes with the Automatic Transmission, Turbocharged 2.3-Liter DOHC i-VTEC Engine, Alloy Wheels, Backup Camera, Climate Control, Heated Leather Seats, GPS Navigation System, Tow Hitch, Power Equipment Group, Cruise Control, Power Sunroof, Acura/ELS Surround Premium AM/FM/XM Sound System, Keyless Entry, Privacy Glass & more! The odometer is 23k miles below market! The odometer is 23k miles below market average! We serviced & detailed this one, too: new front door speakers, new wipers & more! You won't find many at this price that are this nice! Don't hesitate...this won't last long!",
         "images": [
             "https://images.craigslist.org/01616_ep9cNjQFdnD_600x450.jpg",
             "https://images.craigslist.org/00505_evOFhGSA5lL_600x450.jpg",
