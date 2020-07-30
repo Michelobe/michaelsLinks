@@ -1,10 +1,11 @@
 
 .container{
-    background: url('workStation.jpg') right center no-repeat;
+    background: url('maxresdefault.jpg') center center no-repeat;
     background-size: cover;
     font-size: 2.5rem;
     width: 100vw;
     height: 100vh;
+    min-height: 900px;
     text-align: center;
     display: flex;
     flex-flow: column;
