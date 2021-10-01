@@ -138,10 +138,12 @@
     }
     .container .linkSection .buttonContainer .singleElBtn{
         padding: 1rem;
+        border: 4px solid white;
     }
     .container .linkSection .buttonContainer .button{
         padding: 1rem 3rem 1rem 1rem;
         margin: 1rem 0 0 1rem;
+        border: 4px solid white;
     }
 }
 
