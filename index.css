@@ -3,7 +3,7 @@
 .container{
     background: rgb(131,58,180);
     background: radial-gradient(circle, rgba(131,58,180,1) 43%, rgba(253,29,29,1) 87%, rgba(252,176,69,1) 100%);
-    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -18,8 +18,8 @@
     border: .8rem solid black;
     border-radius: 25px;
     padding: 1rem 1rem .5rem 1rem;
-    width: 19rem;
-    height: 39rem;
+    width: 320px;
+    height: 600px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -76,7 +76,7 @@
     text-decoration: none;
 }
 .container .linkSection .footer{
-    margin: 1rem auto;
+    margin: 30px auto;
     color: black;
     font-weight: bold;
     font-size: 1.25rem;
@@ -119,6 +119,29 @@
     .container .linkSection .footer{
         font-size: 3rem;
         margin-bottom: 2rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~TABLET LANDSCAPE~~~~~~~~~~ */
+@media only screen and (max-device-width: 1050px) and (orientation:landscape){
+    .container{
+        height: 55rem;
+        justify-content: start;
+    }
+    .container .linkSection{
+        font-size: 1.5rem;
+        width: 50vw;
+    }
+    .container .linkSection .buttonContainer .header{
+        width: 12rem;
+    }
+    .container .linkSection .buttonContainer .singleElBtn{
+        padding: 1rem;
+    }
+    .container .linkSection .buttonContainer .button{
+        padding: 1rem 3rem 1rem 1rem;
+        margin: 1rem 0 0 1rem;
     }
 }
 
