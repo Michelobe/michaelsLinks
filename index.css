@@ -76,6 +76,21 @@
 .container .linkSection .buttonContainer .button i{
     text-decoration: none;
 }
+.container .linkSection .easterEgg{
+    position: relative;
+}
+.container .linkSection .easterEgg .dragonBtn{
+    margin: 1rem .5rem;
+}
+.container .linkSection .easterEgg .dragonballBtn{
+    margin: 1rem .5rem;
+    padding: .5rem;
+    font-size: .6rem;
+    background: orange;
+    border-radius: 50%;
+    position: relative;
+    top: -.3rem;
+}
 .container .linkSection .footer{
     margin: 30px auto;
     color: black;
