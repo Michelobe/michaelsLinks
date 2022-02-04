@@ -76,13 +76,15 @@
 .container .linkSection .buttonContainer .button i{
     text-decoration: none;
 }
-.container .linkSection .easterEgg{
+.container .linkSection .buttonContainer .easterEgg{
     position: relative;
+    margin-top: 1rem;
 }
-.container .linkSection .easterEgg .dragonBtn{
+.container .linkSection .buttonContainer .easterEgg .dragonBtn{
     margin: 1rem .5rem;
+    font-size: 1.5rem;
 }
-.container .linkSection .easterEgg .dragonballBtn{
+.container .linkSection .buttonContainer .easterEgg .dragonballBtn{
     margin: 1rem .5rem;
     padding: .5rem;
     font-size: .6rem;
@@ -131,6 +133,19 @@
         padding: 1.5rem 5.5rem 1.5rem 1.5rem;
         margin: 1rem 0 0 1rem;
         border: 7px solid white;
+    }
+    .container .linkSection .buttonContainer .easterEgg{
+        position: relative;
+    }
+    .container .linkSection .buttonContainer .easterEgg .dragonBtn{
+        font-size: 2.5rem;
+        margin-right: 1rem;
+    }
+    .container .linkSection .buttonContainer .easterEgg .dragonballBtn{
+        font-size: 1rem;
+        padding: .85rem;
+        position: relative;
+        top: -.5rem;
     }
     .container .linkSection .footer{
         font-size: 3rem;
@@ -188,8 +203,23 @@
         margin: 3rem 0 0 1rem;
         border: 7px solid white;
     }
+    .container .linkSection .buttonContainer .easterEgg{
+        margin-top: 3rem;
+        position: relative;
+    }
+    .container .linkSection .buttonContainer .easterEgg .dragonBtn{
+        font-size: 4.5rem;
+        margin-right: 2rem;
+    }
+    .container .linkSection .buttonContainer .easterEgg .dragonballBtn{
+        font-size: 1.75rem;
+        padding: 1.85rem;
+        position: relative;
+        top: -1rem;
+    }
     .container .linkSection .footer{
         margin-bottom: 3rem;
         font-size: 4rem;
     }
 }
+
