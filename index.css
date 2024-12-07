@@ -84,7 +84,7 @@
     margin: 1rem .5rem;
     font-size: 1.5rem;
 }
-.container .linkSection .buttonContainer .easterEgg .dragonballBtn{
+.container .linkSection .buttonContainer .dragonballBtn{
     margin: 1rem .5rem;
     padding: .5rem;
     font-size: .6rem;
@@ -93,7 +93,7 @@
     position: relative;
     top: -.3rem;
 }
-.container .linkSection .footer{
+.container .linkSection .contentContainer .footer{
     margin: 30px auto;
     color: black;
     font-weight: bold;
@@ -101,9 +101,9 @@
     font-family: 'Cantarell', sans-serif;
     display: flex;
     flex-flow: row;
-    align-items: center;
+    justify-content: center;
 }
-.container .linkSection .footer i{
+.container .linkSection .contentContainer .footer i{
     margin-right: .25rem;
     color: rgb(2, 163, 2);
 }
@@ -147,7 +147,7 @@
         position: relative;
         top: -.5rem;
     }
-    .container .linkSection .footer{
+    .container .linkSection .contentContainer .footer{
         font-size: 3rem;
         margin-bottom: 2rem;
     }
@@ -157,7 +157,6 @@
 /* ~~~~~~~~~~TABLET LANDSCAPE~~~~~~~~~~ */
 @media only screen and (max-device-width: 1050px) and (orientation:landscape){
     .container{
-        height: 55rem;
         justify-content: start;
     }
     .container .linkSection{
@@ -217,7 +216,7 @@
         position: relative;
         top: -1rem;
     }
-    .container .linkSection .footer{
+    .container .linkSection .contentContainer .footer{
         margin-bottom: 3rem;
         font-size: 4rem;
     }
